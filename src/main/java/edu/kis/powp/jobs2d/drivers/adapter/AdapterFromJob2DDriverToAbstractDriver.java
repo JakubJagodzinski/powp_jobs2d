@@ -16,7 +16,7 @@ public class AdapterFromJob2DDriverToAbstractDriver extends AbstractDriver {
     public void operateTo(int x, int y) {
         this.job2dDriver.setPosition(getX(), getY());
         this.job2dDriver.operateTo(x, y);
-        this.job2dDriver.setPosition(x, y);
+        setPosition(x, y);
     }
 
 }
