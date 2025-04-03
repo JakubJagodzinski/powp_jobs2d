@@ -35,6 +35,6 @@ public class AdapterToDrawPanelControllerToJob2DDriver extends DrawPanelControll
 
 	@Override
 	public String toString() {
-		return "@Q!$!@$!#@$(*#@&Q(%^*#@";
+		return "Straight line drawer";
 	}
 }
